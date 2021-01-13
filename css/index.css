@@ -1,4 +1,5 @@
-/* General Rule */
+/* General Rules */
+@import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
 *{
   padding: 0;
   margin: 0;
@@ -32,9 +33,40 @@
 #top-nav-bar .icon{
   width: 35px;
 }
+
+/*end of top-nav-bar rules*/
+
+main{
+  margin: 0 10vw;
+}
+
+h1{
+  width: 600px;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid lightgray;
+  font-family: 'Domine', serif;
+  font-style: italic;
+  font-size: 40px;
+  font-weight: 700;
+}
+.social-media-menu{
+
+}
+.social-media-menu li{
+  list-style-type: none;
+  display: inline-block;
+  margin: 5px 5px 20px;
+}
+
 @media (max-width: 800px){
   #top-nav-bar .right, #top-nav-bar .left{
     visibility: hidden;
+  }
+  h1{
+    width: 100%;
+    font-size: 23px;
   }
 }
 
