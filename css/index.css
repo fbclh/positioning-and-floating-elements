@@ -1,1 +1,41 @@
 /* General Rule */
+*{
+  padding: 0;
+  margin: 0;
+}
+/*top-nav-bar*/
+.sticky{
+  position: fixed;
+}
+#top-nav-bar{
+  width: 100vw;
+  height: 26px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+#top-nav-bar div{
+  display: flex;
+}
+#top-nav-bar .left{
+  width: 15vw;
+  justify-content: space-between;
+}
+#top-nav-bar .logo{
+  width: 200px;
+  justify-content: space-between;
+}
+#top-nav-bar .right{
+  width: 15vw;
+  justify-content: space-between;
+}
+#top-nav-bar .icon{
+  width: 35px;
+}
+@media (max-width: 800px){
+  #top-nav-bar .right, #top-nav-bar .left{
+    visibility: hidden;
+  }
+}
+
+/*below are temporaty and experimental rules that won't be part of the final project*/
