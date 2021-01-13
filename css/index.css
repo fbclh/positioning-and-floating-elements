@@ -6,8 +6,8 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: rgb(51, 51, 51);
 }
-body{
-  position: static;
+a{
+  text-decoration: none;
 }
 /*top-nav-bar*/
 .sticky{
@@ -191,7 +191,64 @@ aside{
   width: 200px;
   height: 600px;
 }
+/*bottom navigation menus*/
 
+.bottom-logo{
+  border-top: 1px solid lightgray;
+  width: 1200px;
+  height: 40px;
+  margin: 20px auto 10px;
+  padding-top: 10px;
+}
+.bottom-nav{
+  display: flex;
+  align-items: flex-start;
+  width: 1200px;
+  margin: auto;
+
+}
+.bottom-left-menu, .bottom-right-menu{
+
+
+}
+.bottom-left-menu{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  border-right: 1px solid lightgray;
+  width: 80%;
+}
+h3{
+  font-family:  helvetica, arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700
+}
+.bottom-left-menu li{
+  font-family: helvetica, arial, sans-serif;
+  font-size: 14px;
+  font-stretch: 100%;
+  font-weight: 500
+}
+.bottom-right-menu{
+  padding-left: 20px;
+
+}
+
+footer ul{
+  display: flex;
+  width: 1200px;
+  margin: 20px auto;
+  justify-content: space-between;
+  border-top: 1px solid lightgray;
+  padding-top: 10px;
+
+}
+footer li{
+  list-style-type: none;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 11px;
+  font-weight: 400
+}
 
 /*media querys*/
 
