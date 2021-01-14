@@ -138,7 +138,7 @@ p {
   padding-bottom: 20px;
 }
 
-.the-theory-of-inflation  {
+.the-theory-of-inflation {
   width: 945px;
 }
 
@@ -191,7 +191,7 @@ p {
 iframe {
   display: block;
   margin: auto;
-  width: 600px; 
+  width: 600px;
   height: 315px;
 }
 
@@ -229,7 +229,7 @@ aside {
   height: 600px;
 }
 
- /* bottom navigation menus */
+/* bottom navigation menus */
 
 .bottom-logo {
   border-top: 1px solid lightgray;
@@ -244,7 +244,6 @@ aside {
   align-items: flex-start;
   width: 1200px;
   margin: auto;
-
 }
 
 .bottom-left-menu {
@@ -256,21 +255,20 @@ aside {
 }
 
 h3 {
-  font-family:  helvetica, arial, sans-serif;
+  font-family: helvetica, arial, sans-serif;
   font-size: 13px;
-  font-weight: 700
+  font-weight: 700;
 }
 
 .bottom-left-menu li {
   font-family: helvetica, arial, sans-serif;
   font-size: 14px;
   font-stretch: 100%;
-  font-weight: 500
+  font-weight: 500;
 }
 
 .bottom-right-menu {
   padding-left: 20px;
-
 }
 
 footer ul {
@@ -286,13 +284,12 @@ footer li {
   list-style-type: none;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 11px;
-  font-weight: 400
+  font-weight: 400;
 }
 
- /* media querys */
+/* media querys */
 
 @media (max-width: 800px) {
-
   #top-nav-bar .right,
   #top-nav-bar .left {
     visibility: hidden;
