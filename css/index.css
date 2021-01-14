@@ -96,7 +96,8 @@ h1 {
   font-weight: 400;
 }
 
-time, .author {
+time,
+.author {
   font-family: helvetica, arial, sans-serif;
 }
 
@@ -115,7 +116,9 @@ time {
   margin-bottom: 30px;
 }
 
-h2, section, .article-footer-wrapper div {
+h2,
+section,
+.article-footer-wrapper div {
   margin: auto;
   width: 600px;
 }
@@ -198,7 +201,8 @@ iframe {
   margin-bottom: 20px;
 }
 
-.article-footer-wrapper p, .article-footer-wrapper a {
+.article-footer-wrapper p,
+.article-footer-wrapper a {
   display: inline;
   font-family: helvetica, arial, sans-serif;
   font-size: 12px;
@@ -289,7 +293,8 @@ footer li {
 
 @media (max-width: 800px) {
 
-  #top-nav-bar .right, #top-nav-bar .left {
+  #top-nav-bar .right,
+  #top-nav-bar .left {
     visibility: hidden;
   }
 
