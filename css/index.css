@@ -1,7 +1,7 @@
-/* General Rules */
+ /* General Rules */
 @import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
 
-*  {
+* {
   padding: 0;
   margin: 0;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -11,7 +11,8 @@
 a {
   text-decoration: none;
 }
-/*top-nav-bar*/
+
+ /* top-nav-bar */
 
 .sticky {
   position: fixed;
@@ -48,7 +49,7 @@ a {
   width: 35px;
 }
 
-/*end of top-nav-bar rules*/
+ /* end of top-nav-bar rules */
 
 main {
   margin: 0 10vw;
@@ -215,7 +216,7 @@ iframe {
   height: 36px;
 }
 
-/*section aside*/
+ /* section aside */
 aside {
   position: absolute;
   top: 1800px;
@@ -223,7 +224,8 @@ aside {
   width: 200px;
   height: 600px;
 }
-/*bottom navigation menus*/
+
+ /* bottom navigation menus */
 
 .bottom-logo {
   border-top: 1px solid lightgray;
@@ -283,10 +285,10 @@ footer li {
   font-weight: 400
 }
 
-/*media querys*/
+ /* media querys */
 
 @media (max-width: 800px) {
-  
+
   #top-nav-bar .right, #top-nav-bar .left {
     visibility: hidden;
   }
@@ -296,5 +298,3 @@ footer li {
     font-size: 23px;
   }
 }
-
-/*below are temporaty and experimental rules that won't be part of the final project*/
