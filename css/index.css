@@ -1,4 +1,4 @@
- /* General Rules */
+/* General Rules */
 @import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
 
 * {
@@ -12,7 +12,7 @@ a {
   text-decoration: none;
 }
 
- /* top-nav-bar */
+/* top-nav-bar */
 
 .sticky {
   position: fixed;
@@ -49,7 +49,7 @@ a {
   width: 35px;
 }
 
- /* end of top-nav-bar rules */
+/* end of top-nav-bar rules */
 
 main {
   margin: 0 10vw;
